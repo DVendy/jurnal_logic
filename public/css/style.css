@@ -1,0 +1,144 @@
+body{
+	background-color: #EBEBEB;
+}
+
+ul.nav.nav-pills.nav-custom {
+    text-align: right;
+}
+
+.nav-custom.nav-pills>li {
+    float: none;
+    display: inline-block;
+}
+
+.dropdown-menu{
+  left: inherit;
+  right: 0px;
+  text-align: right;
+}
+
+.bg{
+  background-image: url("../images/bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.nav-level2{
+  background-color: #D1ECFB;
+}
+
+.nav-level3{
+  background-color: beige;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: #333;
+}
+
+.logo{
+  width: 100%;
+}
+
+.batas-atas{
+  background-color: #DE4126;
+  height: 5px;
+  width: 100%;
+}
+
+.batas-tengah{
+  background-color: #DE4126;
+  height: 2px;
+  width: 100%;
+}
+
+.plus-atas{
+  margin-top: 10px;
+}
+
+.link-top {
+  margin-top: 5px;
+}
+.link-top:hover {
+    background-color: yellow;
+} 
+
+.navbar-inverse .navbar-brand {
+	color: #D9534F;
+}
+
+.well_custom{
+  background-color: #FFF;	
+}
+
+.form-control {
+  background-color: #EBEBEB;
+}
+
+.searchbar{
+  background-color: #FFF;
+}
+
+.custom_info .alert {
+	position: fixed; 
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.clearfix .btn{
+	margin-left: 5px;
+}
+
+*{
+  border-radius: 0 !important;
+}
+
+.nav-pills > li > a{
+  color: black;
+}
+
+.nav-pills > li > a:hover{
+  background-color: #333;
+  color: white;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover{
+  background-color: #F26229;
+  color : whitesmoke;
+}
+
+.nav-pills > li.active > a:focus{
+  background-color: #F26219;
+}
+
+.navbar-inverse{
+	background-color: #444;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #CDCDCD;
+}
+
+.custom_margin_bot_20{
+	margin-bottom: 20px;
+}
+
+.modal-header{
+    background-color: #444;
+    color: whitesmoke;
+}
+
